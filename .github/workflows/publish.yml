@@ -1,0 +1,42 @@
+name: NuGet Package
+on:
+  push:
+    branches:
+      - main # Default release branch
+    paths:
+      - 'src/**'   
+      - '.github/workflows/**'   
+jobs:
+  deploy:
+    if: ${{ false }} # disable for now
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    env:
+      SLN_FILE_NAME: Digitalroot.Valheim.ModName.sln
+      PROJ: Digitalroot.Valheim.ModName  
+      NUGET_AUTH_TOKEN: ${{secrets.NUGET_PAT}}
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-dotnet@v1.8.1
+        with:
+          #dotnet-version: '3.1.x' # SDK Version to use.
+          source-url: https://nuget.pkg.github.com/Digitalroot-Valheim/index.json
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - name: Restore packages
+        run: dotnet restore src/${{ env.SLN_FILE_NAME }} --nologo
+      - name: Build    
+        run: dotnet build src/${{ env.SLN_FILE_NAME }} -c Release --no-restore --nologo
+      - name: Test  
+        run: dotnet test src/${{ env.SLN_FILE_NAME }} -c Release --no-build --nologo
+      - name: Create the package
+        run: dotnet pack src/${{ env.PROJ }}/${{ env.PROJ }}.csproj -c Release --no-restore --no-build --nologo
+      - name: Publish package to Digitalroot-Valheim nuget repository
+        run: dotnet nuget push src/${{ env.PROJ }}/bin/Release/*.nupkg --skip-duplicate

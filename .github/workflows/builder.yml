@@ -1,0 +1,38 @@
+name: Build
+on:
+  push:
+    paths:
+      - 'src/**'   
+      - '.github/workflows/**'   
+jobs:
+  build:
+    if: ${{ false }} # disable for now
+    runs-on: windows-latest
+    permissions:
+      packages: write
+      contents: read
+    env:
+      SLN_FILE_NAME: AtosArrowsJVL.sln
+      DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+      DOTNET_CLI_TELEMETRY_OPTOUT: true
+      NUGET_AUTH_TOKEN: ${{secrets.NUGET_PAT}}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dotnet
+        uses: actions/setup-dotnet@v1.8.1
+        with:
+          source-url: https://nuget.pkg.github.com/Digitalroot-Valheim/index.json
+      - name: Setup NuGet.exe
+        uses: nuget/setup-nuget@v1
+        with:
+          nuget-version: latest
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.2
+      - name: Restore packages
+        run: nuget restore src/${{ env.SLN_FILE_NAME }}
+      - name: Build
+        run: dotnet build src/${{ env.SLN_FILE_NAME }} -c Release --no-restore
+      - name: Test
+        run: dotnet test src/${{ env.SLN_FILE_NAME }} -c Release --no-build
+        
