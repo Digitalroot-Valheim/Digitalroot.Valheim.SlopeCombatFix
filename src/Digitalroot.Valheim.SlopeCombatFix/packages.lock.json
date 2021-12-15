@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "dependencies": {
+    ".NETFramework,Version=v4.6.2": {
+      "BepInEx.Core": {
+        "type": "Direct",
+        "requested": "[5.4.16, )",
+        "resolved": "5.4.16",
+        "contentHash": "ywMFKW0SInV5U8h3mluStFI2xTJdrIaL8PLgrUMMhEA17NUZOKj8ZdlTu1Qoz6QJQslhp7b6KtwTOJXuAy9D+Q==",
+        "dependencies": {
+          "BepInEx.BaseLib": "5.4.16",
+          "HarmonyX": "2.5.5"
+        }
+      },
+      "Digitalroot.Valheim.Build.Targets": {
+        "type": "Direct",
+        "requested": "[1.0.6, )",
+        "resolved": "1.0.6",
+        "contentHash": "AQKLRxbRMaLH4IKyYkCPIoYhzCyNf6TJHyjW8bqOAdqTvX3Y7eCnx+MKhlKAwE6TC/gYN4F6P6Yh8OoYFEGDEQ=="
+      },
+      "Digitalroot.Valheim.Common.References": {
+        "type": "Direct",
+        "requested": "[0.205.6, )",
+        "resolved": "0.205.6",
+        "contentHash": "zXSnFD/lHssUcRpM/gciECcTNW5CXa/GyWXaqHM5labGjLW4ALui5cxuZuoD5N2pjt98bHLKdGFIm1xGIfO+IA=="
+      },
+      "UnityEngine.Modules": {
+        "type": "Direct",
+        "requested": "[2019.4.32, 2019.4.32]",
+        "resolved": "2019.4.32",
+        "contentHash": "7KmS0Nz+s89igz/tDBRk9PEmWqlwReQZf9E6tl6/uV5DndbaR5WInqis4y6Fwq1B++2leamS7qPffnW5+WQwUw=="
+      },
+      "BepInEx.BaseLib": {
+        "type": "Transitive",
+        "resolved": "5.4.16",
+        "contentHash": "DydXiAQqbb1mqC++WlwYqwJ5DN7o+jM8LSQ8P43t82WCAkJFny0ode48brrD6vilDQuxZ621SOK9uuI3xo3Gyg=="
+      },
+      "HarmonyX": {
+        "type": "Transitive",
+        "resolved": "2.5.5",
+        "contentHash": "sQTQhNCwbob8JnnLsJibcorfjQGi2ziseb8uIOtyWrIv/RrbH1bJiwwX6hyLHCrgLMbzBd5Z15SukTXlmfcYLQ==",
+        "dependencies": {
+          "MonoMod.RuntimeDetour": "21.8.19.1"
+        }
+      },
+      "Mono.Cecil": {
+        "type": "Transitive",
+        "resolved": "0.11.4",
+        "contentHash": "IC1h5g0NeJGHIUgzM1P82ld57knhP0IcQfrYITDPXlNpMYGUrsG5TxuaWTjaeqDNQMBDNZkB8L0rBnwsY6JHuQ=="
+      },
+      "MonoMod.RuntimeDetour": {
+        "type": "Transitive",
+        "resolved": "21.8.19.1",
+        "contentHash": "fUEvDK4q9n+GAAB29vFKAsUIwhKAvZTVbn2WJemzLxbiTElutZ55ytUQxSSv6XhiRaJXrl5bSArO54PY0QNplw==",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4",
+          "MonoMod.Utils": "21.8.19.1"
+        }
+      },
+      "MonoMod.Utils": {
+        "type": "Transitive",
+        "resolved": "21.8.19.1",
+        "contentHash": "HsH5TBMUdJmQtdINdYFG5a3BvCeGPezDX42qgv+h539drpNdD+qE7/NT6BtcmDI+y6VSVClFdnzcVNrOvTSfWQ==",
+        "dependencies": {
+          "Mono.Cecil": "0.11.4"
+        }
+      }
+    }
+  }
+}
