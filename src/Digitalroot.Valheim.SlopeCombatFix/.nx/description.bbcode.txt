@@ -29,10 +29,10 @@ License
 [*][size=3]Height[/size]
 [/list]
 [b][size=4]Issues/Bugs[/size][/b]
-Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterClubs/issues]issue board[/url]﻿﻿.
+Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix/issues]issue board[/url]﻿﻿.
 
 [b][size=4]Questions[/size][/b]
-Ask a question on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterClubs/discussions]discussions board[/url]﻿﻿.
+Ask a question on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix/discussions]discussions board[/url]﻿﻿.
 
 
 [b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
