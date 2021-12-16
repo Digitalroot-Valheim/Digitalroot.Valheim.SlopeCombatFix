@@ -1,0 +1,45 @@
+﻿[size=3]This is Digitalroot's take on the Slope Combat Fix mod.
+
+Original Mod: [url=https://www.nexusmods.com/valheim/mods/727]https://www.nexusmods.com/valheim/mods/727[/url]
+
+[b]Code is a complete rewrite.[/b] 
+However the concept and idea belong to [url=https://www.nexusmods.com/valheim/users/8753980]flppyflip3[/url] [b][color=#ffff00][size=4]whom is welcome to merge this version into theirs and release an update.[/size][/color][/b][/size][b][size=4]
+
+License
+[/size][/b][size=3][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix/blob/main/LICENSE]GNU Affero General Public License v3.0[/url][/size][size=3]
+[/size][size=3]Closed-source license is available for commercial use.[/size]
+
+[b][size=4]Source[/size][/b]
+[size=3][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix]GitHub[/url][/size]
+
+[b][size=4]Digitalroot.Valheim.SlopeCombatFix[/size][/b]
+
+[list]
+[*][size=3] [color=#00ffff]DoD compatible.  [/color][/size]
+[*][color=#00ffff][size=3][i]Effects the Player only.[/i][/size][/color]
+[/list]
+[b][size=4]Installation (manual)[/size][/b]
+[list=1]
+[*][size=3]Download the latest release archive (zip) file.[/size]
+[*][size=3]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins[/size]
+[/list]
+[b][size=4]Configuration[/size][/b]
+[list]
+[*][size=3]Offset[/size]
+[*][size=3]Height[/size]
+[/list]
+[b][size=4]Issues/Bugs[/size][/b]
+Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterClubs/issues]issue board[/url]﻿﻿.
+
+[b][size=4]Questions[/size][/b]
+Ask a question on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BetterClubs/discussions]discussions board[/url]﻿﻿.
+
+
+[b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
+
+[b][size=4]Thanks to[/size][/b]
+[list]
+[*][size=3][size=3][url=https://www.nexusmods.com/valheim/users/8753980]flppyflip3[/url][/size][/size]
+[/list]
+[center][size=3][b][color=#00ffff]Digitalroot can be found in the Odin Plus Team Discord[/color][/b][/size]
+[url=https://discord.gg/mbkPcvu9ax][img]https://digitalroot.net/img/odinplusdisc.png[/img][/url]﻿[/center]

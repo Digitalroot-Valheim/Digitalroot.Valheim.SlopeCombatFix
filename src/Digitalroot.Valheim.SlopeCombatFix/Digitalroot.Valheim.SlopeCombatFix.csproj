@@ -21,13 +21,19 @@
     <Description>Slope Combat Fix for Valheim</Description>
     <NeutralLanguage>en-US</NeutralLanguage>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionPrefix>2.0.0</VersionPrefix>
     <RestoreAdditionalProjectSources>
       https://nuget.bepinex.dev/v3/index.json;
       https://digitalroot-valheim-nuget.s3.us-west-2.amazonaws.com/index.json
     </RestoreAdditionalProjectSources>
 
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".nx\description.bbcode.txt" />
+    <Content Include=".ts\icon.png" />
+    <Content Include=".ts\manifest.json" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="BepInEx.Core" Version="5.4.16">

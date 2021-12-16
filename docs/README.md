@@ -1,51 +1,31 @@
-Structuring your Thunderstore package
-https://github.com/ebkr/r2modmanPlus/wiki/Structuring-your-Thunderstore-package
-
-Manifest V1 (Thunderstore) + author field
-https://github.com/ebkr/r2modmanPlus/wiki/Installing-mods-locally#manifest-v1-thunderstore--author-field
-
-
-Move me to [gitrepo]/doc
-
 # Summary
-This is a port of <a href="https://www.nexusmods.com/valheim/mods/0000">ModTemplate</a> to JVL   
-PR: https://github.com/Atokal/AtosArrows/pull/3   
-Assets belong to <a href="https://github.com/Atokal" target="_blank">Atokal</a> and are used with permission because of:   
-- Asset use permission You are allowed to use the assets in this file without permission or crediting me. https://www.nexusmods.com/valheim/mods/969 (June 12, 2021)
- 
-Original Mod: https://www.nexusmods.com/valheim/mods/969
+This is Digitalroot's take on the Slope Combat Fix mod.
 
-**Code is a complete rewrite.**
+Original Mod: https://www.nexusmods.com/valheim/mods/727
+
+**Code is a complete rewrite.** However the concept and idea belong to [flppyflip3](https://www.nexusmods.com/valheim/users/8753980)
 
 ## License
-Original source has no license.   
-JVL Version is released under: **GNU Affero General Public License v3.0**
+**GNU Affero General Public License v3.0**  
+Closed-source license is available for commercial use.
 
-## ModTemplate
-Adds several new arrows into the game. Expands arrow progression for fighting tougher enemies! 
-
-New Items:
-- Stone Arrow
-- Blunted Arrow
-
-### Dependencies
-- <a href="https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/"  target="_blank">BepInExPack Valheim</a>
-- <a href="https://github.com/Valheim-Modding/Jotunn" target="_blank">Jotunn (JVL)</a>
+## Digitalroot.Valheim.SlopeCombatFix
+This is Digitalroot's take on the Slope Combat Fix mod.  
+- DoD compatible.  
+- **_Effects the Player only._**
 
 ### Installation (manual)
 1. Download the latest release archive (zip) file.
 1. Extract the archive into &lt;Steam Location&gt;\steamapps\common\Valheim\BepInEx\plugins
 
 ### Configuration 
-- No need to configure.
-
-### Issues/Questions/Bugs
-- Use the repo issues tab above.
+- Offset
+- Height
 
 ### Support Me @ https://www.buymeacoffee.com/digitalroot
 
 ### Thanks to 
-- <a href="https://github.com/Atokal" target="_blank">Atokal</a>
+- <a href="https://www.nexusmods.com/valheim/users/8753980" target="_blank">flppyflip3</a>
 
 <p align="center">
 <b>Digitalroot can be found in the Odin Plus Team Discord</b><br />
