@@ -26,6 +26,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C9898E63-1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digitalroot.Valheim.SlopeCombatAssistance", "Digitalroot.Valheim.SlopeCombatAssistance\Digitalroot.Valheim.SlopeCombatAssistance.csproj", "{80CDA45A-1494-483A-8B28-F4307498A9E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6733B4AD-DE8B-4831-913F-D91658716F23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{80CDA45A-1494-483A-8B28-F4307498A9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80CDA45A-1494-483A-8B28-F4307498A9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80CDA45A-1494-483A-8B28-F4307498A9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6733B4AD-DE8B-4831-913F-D91658716F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6733B4AD-DE8B-4831-913F-D91658716F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6733B4AD-DE8B-4831-913F-D91658716F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6733B4AD-DE8B-4831-913F-D91658716F23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
