@@ -1,30 +1,33 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using HarmonyLib;
+using JetBrains.Annotations;
+using Jotunn.Utils;
 using System;
 
-namespace Digitalroot.Valheim.SlopeCombatFix
+namespace Digitalroot.Valheim.SlopeCombatAssistance
 {
   [BepInPlugin(Guid, Name, Version)]
+  [NetworkCompatibility(CompatibilityLevel.ClientMustHaveMod, VersionStrictness.Minor)]
+  [BepInDependency(Jotunn.Main.ModGuid, "2.10.0")]
   [BepInIncompatibility("hitbox.fix")]
-  public class Main : BaseUnityPlugin
+  [BepInIncompatibility("digitalroot.mods.slopecombatfix")]
+  public partial class Main : BaseUnityPlugin
   {
-    public const string Version = "2.0.0";
-    public const string Name = "Digitalroot SlopeCombatFix";
-    public const string Guid = "digitalroot.mods.slopecombatfix";
-    public const string Namespace = "Digitalroot.Valheim" + nameof(SlopeCombatFix);
     public static Main Instance;
     private Harmony _harmony;
 
-    public ConfigEntry<float> Offset;
-    public ConfigEntry<float> Height;
+    [UsedImplicitly] public static ConfigEntry<int> NexusId;
+    public readonly ConfigEntry<float> Offset;
+    public readonly ConfigEntry<float> Height;
 
 
     public Main()
     {
       Instance = this;
-      Offset = Config.Bind<float>("Modify offset", "offset", 0f, "Offset");
-      Height = Config.Bind<float>("Modify height (0.6 default, 1 mod default)", "height", 1f, "Height");
+      NexusId = Config.Bind("General", "NexusID", 1569, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
+      Offset = Config.Bind("General", "Offset", 0f, new ConfigDescription("Modify offset", new AcceptableValueRange<float>(0f, 5f), new ConfigurationManagerAttributes { IsAdminOnly = true, Browsable = true, Order = 1}));
+      Height = Config.Bind("General", "Height", 1f, new ConfigDescription("Modify height (0.6 default, 1 mod default)", new AcceptableValueRange<float>(0f, 5f), new ConfigurationManagerAttributes { IsAdminOnly = true, Browsable = true, Order = 0}));
     }
 
     private void Awake()

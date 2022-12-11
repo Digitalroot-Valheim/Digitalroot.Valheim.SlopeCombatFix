@@ -1,0 +1,32 @@
+name: Release
+
+concurrency: ci-${{ github.ref }}
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches: [ main ] # Default release branch
+    paths:
+      - 'src/**'   
+      - '.github/workflows/**' 
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  call-workflow-nuget-release:
+    uses: Digitalroot-Valheim/.github/.github/workflows/nuget.release.yml@main
+    secrets:
+      aws-access-key-id: ${{ secrets.NUGET_S3_REPO_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.NUGET_S3_REPO_KEY_SECRET }}
+      nexus-api-key: ${{ secrets.NEXUS_API_KEY }}
+      nexus-cookie-nxid-header: ${{ secrets.NEXUS_COOKIE_HEADER_NEXUSID }}
+      nexus-cookie-sid-header: ${{ secrets.NEXUS_COOKIE_HEADER_SID_DEVELOP }}
+    with:
+      sln-file-name: Digitalroot.Valheim.SlopeCombatFix
+      proj-file-name: Digitalroot.Valheim.SlopeCombatAssistance
+      is-nuget-package: false
+      nexus-enable-upload: true
+      nexus-mod-id: 1658

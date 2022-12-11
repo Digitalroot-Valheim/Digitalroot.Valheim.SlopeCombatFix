@@ -1,11 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Interfaces/main/src/json/tsio-manifest.json",
-  "name": "Digitalroot_Valheim_SlopeCombatFix",
+  "name": "Digitalroots_Slope_Combat_Assistance",
   "author": "Digitalroot",
   "description": "Digitalroot's take on the Slope Combat Fix mod. DoD compatible.",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1700"
+    "denikson-BepInExPack_Valheim-5.4.1901",
+    "ValheimModding-Jotunn-2.10.0"
   ],
   "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix"
 }

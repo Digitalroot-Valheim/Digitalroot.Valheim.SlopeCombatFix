@@ -1,0 +1,19 @@
+name: Automated NuGet Dependency Updates
+
+concurrency: ci-${{ github.ref }}
+
+on:
+  workflow_dispatch:
+
+  schedule:
+  - cron: "0/15 16-23,0-9 * * *"
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  call-workflow-nuget-autoupdate:
+    uses: Digitalroot-Valheim/.github/.github/workflows/nuget.autoupdate.yml@main
+    secrets:
+      github-pat: ${{ secrets.AUTOMATED_DEPENDENCY_UPDATES_TOKEN }}

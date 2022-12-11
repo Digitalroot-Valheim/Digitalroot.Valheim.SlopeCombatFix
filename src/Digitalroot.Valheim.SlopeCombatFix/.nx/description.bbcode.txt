@@ -15,7 +15,7 @@ License
 [b][size=4]Digitalroot.Valheim.SlopeCombatFix[/size][/b]
 
 [list]
-[*][size=3] [color=#00ffff]DoD compatible.  [/color][/size]
+[*][size=3] [color=#00ffff]DoD compatible.  [/color][/size]
 [*][color=#00ffff][size=3][i]Effects the Player only.[/i][/size][/color]
 [/list]
 [b][size=4]Installation (manual)[/size][/b]
@@ -28,6 +28,12 @@ License
 [*][size=3]Offset[/size]
 [*][size=3]Height[/size]
 [/list]
+
+[b][size=4]FAQ[/size][/b]
+
+[quote]Q. Why was the mod name changed?
+A. Harassment[/quote]
+
 [b][size=4]Issues/Bugs[/size][/b]
 Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix/issues]issue board[/url]﻿﻿.
 

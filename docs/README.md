@@ -9,8 +9,8 @@ Original Mod: https://www.nexusmods.com/valheim/mods/727
 **GNU Affero General Public License v3.0**  
 Closed-source license is available for commercial use.
 
-## Digitalroot.Valheim.SlopeCombatFix
-This is Digitalroot's take on the Slope Combat Fix mod.  
+## Digitalroot.Valheim.SlopeCombatAssistance
+This is Digitalroot's take on the Slope Combat Fix mod.
 - DoD compatible.  
 - **_Effects the Player only._**
 
@@ -21,6 +21,10 @@ This is Digitalroot's take on the Slope Combat Fix mod.
 ### Configuration 
 - Offset
 - Height
+
+### FAQ
+> Q. Why was the mod name changed?
+> > A. Harassment
 
 ### Support Me @ https://www.buymeacoffee.com/digitalroot
 
