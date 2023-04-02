@@ -20,9 +20,18 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.212.18, )",
-        "resolved": "0.212.18",
-        "contentHash": "7If2WpFYCgDDkF+R6Cdl4pExlTPairmciUeHr4TYapXGW3I1E2DGQyeqwY8nnL33ulp0zPnKGlQWFqrUEOPONA=="
+        "requested": "[0.214.302, )",
+        "resolved": "0.214.302",
+        "contentHash": "OkdY7lR1iPcVYoJUXcQfw3mQ+Wd0TiMw/1f34rAuSAAtvvlo7n4RSRt7IoRaVIHamOd/MqtzK9yLWr1rxUeHBQ=="
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.3, )",
+        "resolved": "1.0.3",
+        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net462": "1.0.3"
+        }
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
@@ -36,6 +45,11 @@
         "dependencies": {
           "MonoMod.RuntimeDetour": "21.12.13.1"
         }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net462": {
+        "type": "Transitive",
+        "resolved": "1.0.3",
+        "contentHash": "IzAV30z22ESCeQfxP29oVf4qEo8fBGXLXSU6oacv/9Iqe6PzgHDKCaWfwMBak7bSJQM0F5boXWoZS+kChztRIQ=="
       },
       "Mono.Cecil": {
         "type": "Transitive",
