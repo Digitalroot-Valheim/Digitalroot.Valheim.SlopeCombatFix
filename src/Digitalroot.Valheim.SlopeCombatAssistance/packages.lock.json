@@ -20,9 +20,9 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.214.306, )",
-        "resolved": "0.214.306",
-        "contentHash": "Kh2rb+hscoEw9s1DUiKwAWlSk3wNPz2cRQcTSoiefvGvaiBkKM2HNPpxGki4ZTOImjeuZNi6V/I2thxqWo25vQ=="
+        "requested": "[0.216.901, )",
+        "resolved": "0.216.901",
+        "contentHash": "AOK9+4YQmb517jCZpO1X3iQQJ3WUcNGwksM5mFTQGIrjZkjLmf5Y8t+hNReN3sPde5WWKUWiYPAQbN+Anq1nKA=="
       },
       "Microsoft.NETFramework.ReferenceAssemblies": {
         "type": "Direct",
