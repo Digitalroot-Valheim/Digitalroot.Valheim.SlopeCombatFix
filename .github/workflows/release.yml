@@ -7,9 +7,11 @@ on:
   
   push:
     branches: [ main ] # Default release branch
-    paths:
-      - 'src/**'   
-      - '.github/workflows/**' 
+    paths-ignore:
+      - '.github/**'
+      - 'docs/**'
+      - '**/.ts/**'
+      - '**/.nx/**'
 
 env:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
@@ -24,9 +26,15 @@ jobs:
       nexus-api-key: ${{ secrets.NEXUS_API_KEY }}
       nexus-cookie-nxid-header: ${{ secrets.NEXUS_COOKIE_HEADER_NEXUSID }}
       nexus-cookie-sid-header: ${{ secrets.NEXUS_COOKIE_HEADER_SID_DEVELOP }}
+      ts-api-key: ${{ secrets.TS_SERVICEACCOUNT }}
     with:
       sln-file-name: Digitalroot.Valheim.SlopeCombatFix
       proj-file-name: Digitalroot.Valheim.SlopeCombatAssistance
       is-nuget-package: false
       nexus-enable-upload: true
       nexus-mod-id: 1658
+      ts-enable-upload: true
+      ts-name: Digitalroots_Slope_Combat_Assistance
+      ts-description: "Digitalroot's take on the Slope Combat Fix mod. DoD compatible."
+      ts-categories: "client-side server-side tweaks" #https://thunderstore.io/api/experimental/community/valheim/category/
+      ts-dependencies: denikson-BepInExPack_Valheim@5.4.2105 ValheimModding-Jotunn@2.12.1
