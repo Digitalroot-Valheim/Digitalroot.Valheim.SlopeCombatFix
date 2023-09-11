@@ -18,17 +18,17 @@
         "resolved": "1.0.21",
         "contentHash": "8mErk3UFjy80d9IlTjXNsofT7YfKLz897YE10ieB/SHNbBorzwVCPYRGsmuaNH8HyqjKQH3KnK4gDwDMBEC+DQ=="
       },
-      "Digitalroot.Valheim.Common.ModReferences": {
-        "type": "Direct",
-        "requested": "[1.0.1, )",
-        "resolved": "1.0.1",
-        "contentHash": "VnXkywsYjlN60luKakgPslwtINareK4O/1nu3srhkvrI8rWMITXtXJSkrEvQE4f/h+4lpZA4mrvFisbYdNfV5g=="
-      },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
         "requested": "[0.217.4, )",
         "resolved": "0.217.4",
         "contentHash": "1I3f3Iyd2KGkF9UiJBm38igV6CKiAG/wKW5AeJUJ+oSUBdzU/qAXPATOYEelr2+I+2k3wI8iTVuP+X4+NTwINw=="
+      },
+      "Digitalroot.Valheim.References.JvL": {
+        "type": "Direct",
+        "requested": "[2.12.7, )",
+        "resolved": "2.12.7",
+        "contentHash": "aZHPeAG2mr6gBIkeR6C0R8gNRapU1Yl1YssKc8G4nzIe/VqRE2GLJ3r33bGFwgQjDIoRPqnPWjJYboSkonZM4Q=="
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
