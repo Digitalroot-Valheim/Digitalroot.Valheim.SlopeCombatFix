@@ -26,15 +26,24 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.217.30, )",
-        "resolved": "0.217.30",
-        "contentHash": "B1HHmPAlCire+YKJKYRiHpYRQHUyAiTrQtTujhua1AxQgMS6RCUlJ1kr3XNks3976gduuOsWJ2ydd6MHqLxRvA=="
+        "requested": "[0.217.31, )",
+        "resolved": "0.217.31",
+        "contentHash": "YbSo2DaSyG4UpCseLfr7NA5+dTlVe6/K9m6Ei7cA2VXA9bjSG+COqIXmIDj44jL5P9fPhSfu844IuoJzIrowOg=="
       },
       "Digitalroot.Valheim.References.JvL": {
         "type": "Direct",
-        "requested": "[2.14.6, )",
-        "resolved": "2.14.6",
-        "contentHash": "lYXe5Qb3MAuRHfyCeFYucawQ99EdXd08wB5ls2CDi6blHjapWkzKH/UhV1LLtJKR/eq40bU1uoR72adZ/veoCg=="
+        "requested": "[2.15.0, )",
+        "resolved": "2.15.0",
+        "contentHash": "KzOjN8ZGqpapqkPrfcztDJcX59r0ntnOMVmtjHS7OCKCjXy51k3i/xUgvNQuO7ifA8p4KSUEuiziF0SRaHOSIQ=="
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.3, )",
+        "resolved": "1.0.3",
+        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3"
+        }
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
@@ -48,6 +57,11 @@
         "dependencies": {
           "MonoMod.RuntimeDetour": "21.12.13.1"
         }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net48": {
+        "type": "Transitive",
+        "resolved": "1.0.3",
+        "contentHash": "zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ=="
       },
       "Mono.Cecil": {
         "type": "Transitive",
