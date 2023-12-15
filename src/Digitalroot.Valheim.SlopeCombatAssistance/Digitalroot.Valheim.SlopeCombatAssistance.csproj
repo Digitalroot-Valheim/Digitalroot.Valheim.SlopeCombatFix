@@ -42,12 +42,12 @@
     <PackageReference Include="Digitalroot.Valheim.Build.Targets" Version="1.0.21">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.217.31">
+    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.217.38">
       <PrivateAssets>all</PrivateAssets>
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.15.0" />
+    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.15.2" />
   </ItemGroup>
 
 </Project>
