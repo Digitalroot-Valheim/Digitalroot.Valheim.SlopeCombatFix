@@ -5,8 +5,8 @@
   "description": "Digitalroot's take on the Slope Combat Fix mod. DoD compatible.",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.1901",
-    "ValheimModding-Jotunn-2.10.0"
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "ValheimModding-Jotunn-2.20.0"
   ],
   "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix"
 }

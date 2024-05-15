@@ -27,6 +27,8 @@ jobs:
       nexus-cookie-nxid-header: ${{ secrets.NEXUS_COOKIE_HEADER_NEXUSID }}
       nexus-cookie-sid-header: ${{ secrets.NEXUS_COOKIE_HEADER_SID_DEVELOP }}
       ts-api-key: ${{ secrets.TS_SERVICEACCOUNT }}
+      webhook_url: ${{ secrets.VALHEIM_DISCORD_TITANS_WEBHOOK_URL }}
+
     with:
       sln-file-name: Digitalroot.Valheim.SlopeCombatFix
       proj-file-name: Digitalroot.Valheim.SlopeCombatAssistance
@@ -37,4 +39,4 @@ jobs:
       ts-name: Digitalroots_Slope_Combat_Assistance
       ts-description: "Digitalroot's take on the Slope Combat Fix mod. DoD compatible."
       ts-categories: "client-side server-side tweaks" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: denikson-BepInExPack_Valheim@5.4.2105 ValheimModding-Jotunn@2.12.1
+      ts-dependencies: ValheimModding-Jotunn-2.20.0
