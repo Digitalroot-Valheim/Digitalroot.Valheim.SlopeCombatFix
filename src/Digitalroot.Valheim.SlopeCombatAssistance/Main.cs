@@ -8,7 +8,7 @@ using System;
 namespace Digitalroot.Valheim.SlopeCombatAssistance
 {
   [BepInPlugin(Guid, Name, Version)]
-  [NetworkCompatibility(CompatibilityLevel.ClientMustHaveMod, VersionStrictness.Minor)]
+  [NetworkCompatibility(CompatibilityLevel.VersionCheckOnly, VersionStrictness.Minor)]
   [BepInDependency(Jotunn.Main.ModGuid, "2.10.0")]
   [BepInIncompatibility("hitbox.fix")]
   [BepInIncompatibility("digitalroot.mods.slopecombatfix")]
