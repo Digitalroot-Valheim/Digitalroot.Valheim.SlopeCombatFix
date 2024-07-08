@@ -1,4 +1,4 @@
-name: Automated NuGet Dependency Updates
+name: CI/CD
 
 concurrency: ci-${{ github.ref }}
 
