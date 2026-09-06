@@ -33,10 +33,12 @@ jobs:
       sln-file-name: Digitalroot.Valheim.SlopeCombatFix
       proj-file-name: Digitalroot.Valheim.SlopeCombatAssistance
       is-nuget-package: false
+      skip-unit-tests: true
       nexus-enable-upload: true
       nexus-mod-id: 1658
+      nexus-mod-file-id: 2356351
       ts-enable-upload: true
       ts-name: Digitalroots_Slope_Combat_Assistance
       ts-description: "Digitalroot's take on the Slope Combat Fix mod. DoD compatible."
       ts-categories: "client-side server-side tweaks" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: ValheimModding-Jotunn-2.20.0
+      ts-dependencies: ValheimModding-Jotunn-2.29.2

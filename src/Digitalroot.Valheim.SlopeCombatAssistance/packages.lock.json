@@ -14,9 +14,9 @@
       },
       "Digitalroot.References.Unity": {
         "type": "Direct",
-        "requested": "[2022.3.17, )",
-        "resolved": "2022.3.17",
-        "contentHash": "edxgtveXwn+ACtMyak1McLwoQxKm/GXdh8Drcx2hoFl5VoFeR9wdwEz1yJdVtbamtecZOVghEn3tKKR3ekqOeg=="
+        "requested": "[6000.0.61, )",
+        "resolved": "6000.0.61",
+        "contentHash": "7Q/wooeEhAG/UuIJLXNTTJvLtCHZQIGqOrKGAVSqjJ/ReF0YH3/JhDOAUvZsYNSbJ8ie15maJNZrQK5NUgFzAw=="
       },
       "Digitalroot.Valheim.Build.Targets": {
         "type": "Direct",
@@ -26,24 +26,15 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.219.16, )",
-        "resolved": "0.219.16",
-        "contentHash": "uxAm5us3qsLxM5gZswVz3fDOSFNAfPpMhat/5Ozr1y2QrS8zqnsN1TGQRMwWsUJhv2+I8KZ3vwcOznZNKag3zA=="
+        "requested": "[0.221.12, )",
+        "resolved": "0.221.12",
+        "contentHash": "6aILrn5hdU3y0x678wnLGTjoHPD5ozNVCihXPO/rnWzU5t0K2mfYYx7pMsB2RVyzK4FsQ5xgieieswKwbcLWsw=="
       },
       "Digitalroot.Valheim.References.JvL": {
         "type": "Direct",
-        "requested": "[2.21.3, )",
-        "resolved": "2.21.3",
-        "contentHash": "vJpvKpoqLFRHOFX4rQ7MHxjuWgurx/9e4PcxJQ79XS3PYaSYvxIYdAbTGiYIQuG5eEal0Gv0vxpSNTFzMYGdyA=="
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies": {
-        "type": "Direct",
-        "requested": "[1.0.3, )",
-        "resolved": "1.0.3",
-        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
-        "dependencies": {
-          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3"
-        }
+        "requested": "[2.29.2, )",
+        "resolved": "2.29.2",
+        "contentHash": "qPTn0sXpTHBeBj2ABX6OzSenksy1PmxF2xcu4Af/S1pgr8JqLYgpiDmXPLNFQVdBpRo88DzsXKvCf13FrG8SWQ=="
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",
@@ -57,11 +48,6 @@
         "dependencies": {
           "MonoMod.RuntimeDetour": "21.12.13.1"
         }
-      },
-      "Microsoft.NETFramework.ReferenceAssemblies.net48": {
-        "type": "Transitive",
-        "resolved": "1.0.3",
-        "contentHash": "zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ=="
       },
       "Mono.Cecil": {
         "type": "Transitive",
