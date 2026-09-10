@@ -5,7 +5,7 @@ using JetBrains.Annotations;
 using Jotunn.Utils;
 using System;
 
-namespace Digitalroot.Valheim.SlopeCombatAssistance
+namespace Digitalroot.SlopeCombatAssistance
 {
   [BepInPlugin(Guid, Name, Version)]
   [NetworkCompatibility(CompatibilityLevel.VersionCheckOnly, VersionStrictness.Minor)]

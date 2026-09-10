@@ -1,4 +1,4 @@
-﻿namespace Digitalroot.Valheim.SlopeCombatAssistance
+﻿namespace Digitalroot.SlopeCombatAssistance
 {
   public partial class Main
   {

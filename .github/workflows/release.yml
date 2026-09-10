@@ -30,7 +30,7 @@ jobs:
       webhook_url: ${{ secrets.VALHEIM_DISCORD_TITANS_WEBHOOK_URL }}
 
     with:
-      sln-file-name: Digitalroot.Valheim.SlopeCombatFix
+      sln-file-name: Digitalroot.SlopeCombatAssistance
       proj-file-name: Digitalroot.SlopeCombatAssistance
       is-nuget-package: false
       skip-unit-tests: true

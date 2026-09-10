@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace Digitalroot.Valheim.SlopeCombatAssistance
+namespace Digitalroot.SlopeCombatAssistance
 {
   public static class Patch
   {

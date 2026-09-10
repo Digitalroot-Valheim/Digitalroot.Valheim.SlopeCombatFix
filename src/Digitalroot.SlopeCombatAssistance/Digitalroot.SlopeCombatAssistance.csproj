@@ -4,7 +4,7 @@
     <AssemblyName>Digitalroot.SlopeCombatAssistance</AssemblyName>
     <TargetFrameworks>net48</TargetFrameworks>
     <LangVersion>10</LangVersion>
-    <RootNamespace>Digitalroot.Valheim.SlopeCombatAssistance</RootNamespace>
+    <RootNamespace>Digitalroot.SlopeCombatAssistance</RootNamespace>
     <IsPublishable>False</IsPublishable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <DebugType>embedded</DebugType>
