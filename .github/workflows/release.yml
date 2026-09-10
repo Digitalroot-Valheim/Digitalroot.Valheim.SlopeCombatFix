@@ -31,7 +31,7 @@ jobs:
 
     with:
       sln-file-name: Digitalroot.Valheim.SlopeCombatFix
-      proj-file-name: Digitalroot.Valheim.SlopeCombatAssistance
+      proj-file-name: Digitalroot.SlopeCombatAssistance
       is-nuget-package: false
       skip-unit-tests: true
       nexus-enable-upload: true
