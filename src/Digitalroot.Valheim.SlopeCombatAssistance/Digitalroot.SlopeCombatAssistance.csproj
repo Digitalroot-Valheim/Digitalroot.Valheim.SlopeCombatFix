@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>Digitalroot.Valheim.SlopeCombatAssistance</AssemblyName>
+    <AssemblyName>Digitalroot.SlopeCombatAssistance</AssemblyName>
     <TargetFrameworks>net48</TargetFrameworks>
     <LangVersion>10</LangVersion>
     <RootNamespace>Digitalroot.Valheim.SlopeCombatAssistance</RootNamespace>
@@ -11,7 +11,7 @@
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-    <Copyright>Copyright © Digitalroot Technologies 2021 - 2024</Copyright>
+    <Copyright>Copyright © Digitalroot Technologies 2021 - 2026</Copyright>
     <PackageProjectUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.SlopeCombatFix</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
