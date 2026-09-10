@@ -41,4 +41,4 @@ jobs:
       ts-name: Digitalroots_Slope_Combat_Assistance
       ts-description: "Digitalroot's take on the Slope Combat Fix mod. DoD compatible."
       ts-categories: "client-side server-side tweaks" #https://thunderstore.io/api/experimental/community/valheim/category/
-      ts-dependencies: ValheimModding-Jotunn-2.29.2
+      ts-dependencies: ValheimModding-Jotunn-2.30.0

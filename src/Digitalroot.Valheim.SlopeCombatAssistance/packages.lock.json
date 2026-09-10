@@ -14,9 +14,9 @@
       },
       "Digitalroot.References.Unity": {
         "type": "Direct",
-        "requested": "[6000.0.61, )",
-        "resolved": "6000.0.61",
-        "contentHash": "7Q/wooeEhAG/UuIJLXNTTJvLtCHZQIGqOrKGAVSqjJ/ReF0YH3/JhDOAUvZsYNSbJ8ie15maJNZrQK5NUgFzAw=="
+        "requested": "[6000.0.75, )",
+        "resolved": "6000.0.75",
+        "contentHash": "SYRV6Jdjm7T0mScsARH+Q7pNaWDYa+iWZxgrNBTfFiScUStzsIiRDgNY7grJ5kbZP9kjNZbS+aXCsxycQzHf3g=="
       },
       "Digitalroot.Valheim.Build.Targets": {
         "type": "Direct",
@@ -26,15 +26,15 @@
       },
       "Digitalroot.Valheim.Common.References": {
         "type": "Direct",
-        "requested": "[0.221.12, )",
-        "resolved": "0.221.12",
-        "contentHash": "6aILrn5hdU3y0x678wnLGTjoHPD5ozNVCihXPO/rnWzU5t0K2mfYYx7pMsB2RVyzK4FsQ5xgieieswKwbcLWsw=="
+        "requested": "[1.0.7, )",
+        "resolved": "1.0.7",
+        "contentHash": "qD56hJ9Iozo0hMEzbFTN0nJFNnQlDx2tCtj1mbVNZKFb7XH2gdfMgxYHccqMMH/wuWalvVf8CfvHtf1OzNCwng=="
       },
       "Digitalroot.Valheim.References.JvL": {
         "type": "Direct",
-        "requested": "[2.29.2, )",
-        "resolved": "2.29.2",
-        "contentHash": "qPTn0sXpTHBeBj2ABX6OzSenksy1PmxF2xcu4Af/S1pgr8JqLYgpiDmXPLNFQVdBpRo88DzsXKvCf13FrG8SWQ=="
+        "requested": "[2.30.0, )",
+        "resolved": "2.30.0",
+        "contentHash": "zSS2TopfVwZt84yC53Li4VM1LKXUOpzO4S8WmnvnACDmzZEqNCh+aeW6P3Kc8qSmvQqHYS4NHw8Ph9uiWx+kxA=="
       },
       "BepInEx.BaseLib": {
         "type": "Transitive",

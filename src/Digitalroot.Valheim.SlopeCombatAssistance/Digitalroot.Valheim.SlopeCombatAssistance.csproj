@@ -38,16 +38,16 @@
     <PackageReference Include="BepInEx.Core" Version="[5.4.21]">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.References.Unity" Version="6000.0.61" />
+    <PackageReference Include="Digitalroot.References.Unity" Version="6000.0.75" />
     <PackageReference Include="Digitalroot.Valheim.Build.Targets" Version="1.0.21">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="0.221.12">
+    <PackageReference Include="Digitalroot.Valheim.Common.References" Version="1.0.7">
       <PrivateAssets>all</PrivateAssets>
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.29.2" />
+    <PackageReference Include="Digitalroot.Valheim.References.JvL" Version="2.30.0" />
   </ItemGroup>
 
 </Project>

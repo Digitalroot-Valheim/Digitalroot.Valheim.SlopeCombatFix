@@ -9,7 +9,7 @@ namespace Digitalroot.Valheim.SlopeCombatAssistance
 {
   [BepInPlugin(Guid, Name, Version)]
   [NetworkCompatibility(CompatibilityLevel.VersionCheckOnly, VersionStrictness.Minor)]
-  [BepInDependency(Jotunn.Main.ModGuid, "2.10.0")]
+  [BepInDependency(Jotunn.Main.ModGuid)]
   [BepInIncompatibility("hitbox.fix")]
   [BepInIncompatibility("digitalroot.mods.slopecombatfix")]
   public partial class Main : BaseUnityPlugin
